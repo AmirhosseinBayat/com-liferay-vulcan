@@ -1,4 +1,6 @@
 dependencies {
+	provided group: "com.liferay", name: "com.liferay.journal.api", version: "2.0.0"
+
 	testCompile group: "javax.ws.rs", name: "javax.ws.rs-api", version: "2.0.1"
 	testCompile project(":apps:foundation:vulcan:vulcan-api")
 	testCompile project(":apps:foundation:vulcan:vulcan-jaxrs-json")
